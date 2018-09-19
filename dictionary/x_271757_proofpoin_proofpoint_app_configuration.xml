@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" max_length="40" name="x_271757_proofpoin_proofpoint_app_configuration" type="collection">
+        <element label="BaseURL" mandatory="true" max_length="100" name="baseurl" type="string"/>
+        <element default="5" display="true" label="Incident polling interval" mandatory="true" max_length="40" name="incident_polling_interval" type="integer"/>
+        <element label="Password" mandatory="true" max_length="40" name="password" type="string"/>
+        <element label="User Name" mandatory="true" max_length="30" name="user_name" type="string"/>
+    </element>
+</database>

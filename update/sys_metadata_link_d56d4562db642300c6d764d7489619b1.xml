@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8a9109eadb242300c6d764d7489619c6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_update_version">
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>INSERT_OR_UPDATE</action>
+        <application display_value="Proofpoint - ServiceNow Integration App">870f5d61db202300c6d764d748961957</application>
+        <file_path/>
+        <instance_id>cd1a0d99db1b5b40cbf6d5b0cf961992</instance_id>
+        <instance_name>dev64589</instance_name>
+        <name>sys_script_client_ed229b56db202300c6d764d74896199b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Display the existing settings&lt;/description&gt;&lt;field&gt;sys_scope&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ShowSettings&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	var gr = new GlideRecord(g_form.getTableName());
+	alert('Here....');
+	gr.addOrderBy('sys_created_on');
+	gr.setLimit(1);
+	gr.query();
+	gr.next();
+		
+	if(!(gr.get('base_url'))){
+		g_form.setValue(gr.get('base_url'));
+	 }
+	
+	if(!(gr.get('user_name'))){
+		 g_form.setValue(gr.get('user_name'));
+	 }
+	
+	if(!(gr.get('password'))){
+		g_form.setValue(gr.get('password'));
+	 }
+	
+	if(!(gr.get('incident_polling_interval'))){
+		g_form.setValue(gr.get('incident_polling_interval'));
+	 }
+	g_form.setValue('base_url','Test URL');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-17 07:07:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ed229b56db202300c6d764d74896199b&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;ShowSettings&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Proofpoint - ServiceNow Integration App" source="x_271757_proofpoin"&gt;870f5d61db202300c6d764d748961957&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Proofpoint - ServiceNow Integration App"&gt;870f5d61db202300c6d764d748961957&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ed229b56db202300c6d764d74896199b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-17 14:18:56&lt;/sys_updated_on&gt;&lt;table&gt;x_271757_proofpoin_proofpoint_app_configuration&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-502017369</payload_hash>
+        <record_name>ShowSettings</record_name>
+        <reverted_from/>
+        <source>1b0fd92ddb602300c6d764d7489619a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 14:18:56</sys_created_on>
+        <sys_id>8a9109eadb242300c6d764d7489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>165e7e606940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 14:18:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>069109eacf2423009b3e0192145e9cc6</update_guid>
+        <update_guid_history>069109eacf2423009b3e0192145e9cc6:-502017369,d12105ea692423002fbc22bfd91c2581:267585935,39d9b8a68f24230030856821eb933687:-751490492,96a9b8a61d242300517fd5323f5db644:-519437000,47c670e23324230075e8475b62948f27:-869885728,a6c334e23e2423000d92cd9de07e2218:1456073876,a2a27c62582423005e202d3ce6c98db0:1712547419,6fb17c620a24230049ba0bd7ecbdcc27:178726223,a08d6c6e0ce023007c5cae3844c3677f:1379342463,fd6d24eec1e0230081dead04f1e1cdee:-707272474,66fae46a1ee0230002212057898106db:-1687136689,d45528a613e02300d6a5b6cf1cd2b01f:1770987517,eb23a46a32e023006a6dcecbb2fb9afa:-709308081,104f935ed9202300e02302f5f54ec0b9:1431405947,2fce9b1efa2023003ed1a0e5b6144b91:18363710</update_guid_history>
+    </sys_update_version>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 15:10:30</sys_created_on>
+        <sys_id>d56d4562db642300c6d764d7489619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_script_client_ed229b56db202300c6d764d74896199b</sys_name>
+        <sys_package display_value="Proofpoint - ServiceNow Integration App" source="x_271757_proofpoin">870f5d61db202300c6d764d748961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proofpoint - ServiceNow Integration App">870f5d61db202300c6d764d748961957</sys_scope>
+        <sys_update_name>sys_metadata_link_d56d4562db642300c6d764d7489619b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 15:10:30</sys_updated_on>
+        <tablename>sys_update_version</tablename>
+    </sys_metadata_link>
+</record_update>

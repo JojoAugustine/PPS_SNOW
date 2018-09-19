@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Proofpoint App Configuration</name>
+        <order>100</order>
+        <roles>x_271757_proofpoin.proofpoint_app_configuration_user,admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 14:00:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9790a1addb602300c6d764d74896199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Proofpoint App Configuration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Proofpoint - ServiceNow Integration App" source="x_271757_proofpoin">870f5d61db202300c6d764d748961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proofpoint - ServiceNow Integration App">870f5d61db202300c6d764d748961957</sys_scope>
+        <sys_update_name>sys_app_application_9790a1addb602300c6d764d74896199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 15:12:14</sys_updated_on>
+        <title>Proofpoint App Configuration</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

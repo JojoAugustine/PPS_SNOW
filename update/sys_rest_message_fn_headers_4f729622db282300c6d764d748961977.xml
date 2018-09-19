@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Accept</name>
+        <rest_message_function display_value="quarantineSearch">5555cee6dbe42300c6d764d7489619a0</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 20:12:55</sys_created_on>
+        <sys_id>4f729622db282300c6d764d748961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_package display_value="Proofpoint - ServiceNow Integration App" source="x_271757_proofpoin">870f5d61db202300c6d764d748961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proofpoint - ServiceNow Integration App">870f5d61db202300c6d764d748961957</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_4f729622db282300c6d764d748961977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 20:12:55</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+</record_update>

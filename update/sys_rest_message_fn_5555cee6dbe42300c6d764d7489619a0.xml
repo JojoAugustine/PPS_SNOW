@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="apiuser">bae5862adbe42300c6d764d74896191d</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>quarantineSearch</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>ProofpointQuarantine [ quarantineSearch ]</qualified_name>
+        <rest_endpoint>https://148.163.140.205:10000/rest/v1/quarantine</rest_endpoint>
+        <rest_message display_value="ProofpointQuarantine">d47442e6dbe42300c6d764d748961931</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 19:14:53</sys_created_on>
+        <sys_id>5555cee6dbe42300c6d764d7489619a0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>quarantineSearch</sys_name>
+        <sys_package display_value="Proofpoint - ServiceNow Integration App" source="x_271757_proofpoin">870f5d61db202300c6d764d748961957</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proofpoint - ServiceNow Integration App">870f5d61db202300c6d764d748961957</sys_scope>
+        <sys_update_name>sys_rest_message_fn_5555cee6dbe42300c6d764d7489619a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-18 08:27:52</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
